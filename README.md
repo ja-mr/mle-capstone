@@ -27,6 +27,8 @@ Model implementation libraries: Libraries used to implement and evaluate our dif
 Our project objective is to detect if tweets are reporting a disaster or not based in the words contained in them. This model could be useful in cases were there is no official information or it is too slow to alert nearby population.
 
 ## Files Description
+- ./Project Report.pdf: Report of the project submitted
+- ./proposal.pdf: approved project proposal
 - ./Capstone project.ipynb: Jupyter notebook containing all of our project implementations and results. It is the main file and it can be directly executed in a Jupyter notebook environment.
 - ./cache/tweet_data/preprocessed_data.pkl: cache file storing our pre-processed words to avoid reprocessing in following executions. May be deleted for your own implementation.
 - ./data/train.csv: original train data from the Kaggle Competition
