@@ -27,15 +27,15 @@ Model implementation libraries: Libraries used to implement and evaluate our dif
 Our project objective is to detect if tweets are reporting a disaster or not based in the words contained in them. This model could be useful in cases were there is no official information or it is too slow to alert nearby population.
 
 ## Files Description
-./Capstone project.ipynb: Jupyter notebook containing all of our project implementations and results. It is the main file and it can be directly executed in a Jupyter notebook environment.
-./cache/tweet_data/preprocessed_data.pkl: cache file storing our pre-processed words to avoid reprocessing in following executions. May be deleted for your own implementation.
-./data/train.csv: original train data from the Kaggle Competition
-./data/pytorch/train.csv: file containing our processed training set
-./data/pytorch/validation.csv: file containing our processed validation set
-./data/pytorch/word_dict.pkl: file containing the created dictionary used to transform words to integer values
-./train/model.py: definition of our neural network model
-./train/train.py: model initialization, default parameter specification and training functions
-./train/requirements.txt: libraries required for our model implementations.
+- ./Capstone project.ipynb: Jupyter notebook containing all of our project implementations and results. It is the main file and it can be directly executed in a Jupyter notebook environment.
+- ./cache/tweet_data/preprocessed_data.pkl: cache file storing our pre-processed words to avoid reprocessing in following executions. May be deleted for your own implementation.
+- ./data/train.csv: original train data from the Kaggle Competition
+- ./data/pytorch/train.csv: file containing our processed training set
+- ./data/pytorch/validation.csv: file containing our processed validation set
+- ./data/pytorch/word_dict.pkl: file containing the created dictionary used to transform words to integer values
+- ./train/model.py: definition of our neural network model
+- ./train/train.py: model initialization, default parameter specification and training functions
+- ./train/requirements.txt: libraries required for our model implementations.
 
 ## Results Summary
 Our proposed RNN model showed to be superior under the F1-score metric than a Linear Ridge Regression Classifier. Moreover, hyperparameter tuning of the epoch values showed to improve the results of an initial implementation with a default value of epochs.
