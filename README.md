@@ -41,6 +41,6 @@ Our project objective is to detect if tweets are reporting a disaster or not bas
 Our proposed RNN model showed to be superior under the F1-score metric than a Linear Ridge Regression Classifier. Moreover, hyperparameter tuning of the epoch values showed to improve the results of an initial implementation with a default value of epochs.
 
 ## Acknowledments
-Kaggle site for the competition description and datasets: https://www.kaggle.com/c/nlp-getting-started/overview
-Public tutorial for Natural Language Processing by Phil Culliton: https://www.kaggle.com/philculliton/nlp-getting-started-tutorial
-Public submission by Shahules786: https://www.kaggle.com/shahules/basic-eda-cleaning-and-glove
+- Kaggle site for the competition description and datasets: https://www.kaggle.com/c/nlp-getting-started/overview
+- Public tutorial for Natural Language Processing by Phil Culliton: https://www.kaggle.com/philculliton/nlp-getting-started-tutorial
+- Public submission by Shahules786: https://www.kaggle.com/shahules/basic-eda-cleaning-and-glove
